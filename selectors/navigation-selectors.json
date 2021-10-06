@@ -1,0 +1,10 @@
+{
+    "showSearch" : ".vs-c-project-search > .el-tooltip.vs-c-btn.vs-c-btn--link",
+    "searchInput" : "form > input[type='text']",
+    "showFinishedSprints" : "button[name='show_finished_sprints']", 
+    "toggleView" : ".vs-c-sprint-info > button:nth-of-type(2)",
+     "moreOptions" : ".el-dropdown > .el-tooltip.vs-c-btn.vs-c-btn--link",
+     "showFilters" : ".vs-c-dropdown-wrapper.vs-c-filter > .el-badge.el-tooltip > .vs-c-btn.vs-c-btn--link",
+     "notifications" : ".vs-c-dropdown-wrapper.vs-c-notification > .el-badge.el-tooltip > .vs-c-btn.vs-c-btn--link",
+     "help" : ".vs-l-project__options > .el-tooltip.vs-c-btn.vs-c-btn--link" 
+}

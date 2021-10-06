@@ -1,0 +1,8 @@
+{
+    "emailInput" : "[data-vv-as='email']",
+    "passwordInput" : "[data-vv-as='password']",
+    "forgotPassword" : "a[href='/forgot-password']",
+    "loginButton" : "button[type='submit']",
+    "backToHomeLink" : "a[href='https://cypress-api.vivifyscrum-stage.com']",
+    "signUpLink" : "a[href='https://cypress-api.vivifyscrum-stage.com/pricing']"
+}

@@ -1,0 +1,9 @@
+{
+    "backToPricing" : "span[class='vs-u-text--uppercase vs-c-auth-modal__body-text vs-u-font-lg vs-u-gap--left-sm']",
+    "emailInput" : "[data-vv-as='email']",
+    "passwordInput" : "[data-vv-as='password']",
+    "numberOfUsers" : "[data-vv-as='number of users']",
+    "termsCheckbox" : "span[class='vs-c-checkbox-check']",
+    "signUpButton" : "button[type='submit']",
+    "loginLink" : "strong[class='vs-c-auth-modal__bottom-text-main vs-u-text--uppercase']"
+} 
