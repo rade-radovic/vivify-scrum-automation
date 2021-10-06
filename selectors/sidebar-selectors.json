@@ -1,0 +1,6 @@
+{
+    "colapseExpandeSidebar" : "div[class='vs-c-list__btn']", 
+    "addNew" : "div[class='vs-c-list__btn el-tooltip vs-c-list-btn--new-workspace']", 
+    "colapseOrganizations" : "button[class='vs-c-btn vs-c-btn--link vs-c-btn--sm vs-c-list__caret collapsed']", 
+    "expandOrganizations" : "button[class='vs-c-btn vs-c-btn--link vs-c-btn--sm vs-c-list__caret']"
+}

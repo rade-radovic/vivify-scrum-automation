@@ -1,0 +1,11 @@
+{
+    "addNewBoard" : "div[class='vs-c-organization-boards__item--add-new']",
+    "closeButton" : "button[name='close-new-board-modal-btn'] > .el-icon-close",
+    "selectOrganizationDropdown" : "input[class='el-input__inner']",
+    "boardNameInput" : "input[name='name']",
+    "cancelOrPreviousButton" : "button[name='prev_btn']",
+    "nextOrCreateButton" : "button[name='next_btn']",
+    "radioScrumType" : "span[name='type_scrum']",
+    "radioKanbanType" : "span[name='type_kanban']",
+    "uploadLogo" : "div[class='el-upload-dragger']"
+}
