@@ -55,8 +55,4 @@ describe('Add new organization', () => {
         cy.get(addOrganizaton.archiveButton).click({force:true})
         cy.get(addOrganizaton.confirmArchiveYes).click()
     })
-
-
-
-
 })
