@@ -6,7 +6,7 @@ import data from "../fixtures/data.json"
 
 describe('Register', () => {
 
-    it.only('visit vivify scrum', () => {
+    it('visit vivify scrum', () => {
         cy.visit("/", { timeout: 30000});
     })
 
@@ -38,7 +38,7 @@ describe('Register', () => {
         cy.get(register.signUpButton).click()
     })
 
-    it.only('invalid number of users', () => {
+    it('invalid number of users', () => {
         cy.get(login.signUpLink).click()
         cy.get(register.growtSignUp).click({force : true})
         cy.get(register.emailInput).clear().type('test@test.com')

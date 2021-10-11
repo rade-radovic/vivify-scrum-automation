@@ -4,6 +4,13 @@
     "organizationNameInput" : "input[name='name']",
     "cancelOrPreviousButton" : "button[name='prev_btn']",
     "nextOrCreateButton" : "button[name='next_btn']",
-    "uploadLogo" : "div[class='el-upload-dragger']"
+    "uploadLogo" : "div[class='el-upload-dragger']",
+    "editButon" : "span[title='Edit Organization']",
+    "archiveButton" : "span[title='Archive Organization']",
+    "changeOrganizationNameInput" : "input[name='change-organization-name']",
+    "organizationNameChangeCheck" : "button[name='change-organization-name'] > .el-icon-check",
+    "cancelNameChangeButton" : "button:nth-of-type(2) > .el-icon-close",
+    "confirmArchiveYes" : "button[name='save-btn']",
+    "confirmArchiveNo" : "button[name='cancel-btn']"
 
 } 

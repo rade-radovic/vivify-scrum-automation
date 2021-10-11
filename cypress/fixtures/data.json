@@ -12,13 +12,16 @@
         "invalidEmailNoDot" : "notvalid@mailcom",
         "invalidEmailNoUsername" : "@mail.com",
         "invalidPassNoNumber" : "testTest!"
-        
     },
 
-    "registerData" :{
+    "registerData" : {
         "unregisteredEmail" : "unregistered@email.com",
         "numberOfUsers" : 51
+    },
 
+    "organization" : {
+        "name" : "First organization",
+        "changedName" : "Changed Name"
     }
 
 
