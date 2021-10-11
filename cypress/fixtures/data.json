@@ -1,0 +1,25 @@
+{
+    "user" : {
+        "email" : "raex_serbia@yahoo.com",
+        "password" : "test1234"
+    },
+
+    "negativeData" : {
+        "wrongPassword" : "wrongpass12321783!jsd",
+        "wrongEmail" : "wrong@email.com",
+        "invalidNumberOfUsers" : 5,
+        "invalidEmailNoMonkey" : "notvalid.mail.com",
+        "invalidEmailNoDot" : "notvalid@mailcom",
+        "invalidEmailNoUsername" : "@mail.com",
+        "invalidPassNoNumber" : "testTest!"
+        
+    },
+
+    "registerData" :{
+        "unregisteredEmail" : "unregistered@email.com",
+        "numberOfUsers" : 51
+
+    }
+
+
+}
