@@ -31,7 +31,14 @@
 
     "board" : {
         "name" : "My first board"
+    },
+
+    "column" : {
+        "name" : "My First Column"
+    },
+
+    "task" : {
+        "name" : "My First Task",
+        "name2" : "My Second Task"
     }
-
-
 }

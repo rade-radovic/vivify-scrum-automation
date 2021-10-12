@@ -28,6 +28,21 @@ describe('Board CRUD', () => {
         cy.get(board.nextOrCreateButton).click()
     })
 
+    it('Create column', () => {
+        cy.get(board.addColumn).click()
+        cy.get(board.column.nameInput).type(data.column.name + "{enter}")
+    })
+
+    it('Add a task to the top of the column', () => {
+        cy.get(board.column.addTaskToTop).click({force:true})
+        cy.get(board.task.nameInput).type(data.task.name + "{enter}")
+    })
+
+    it('Add a task to the bottom of the column', () => {
+        cy.get(board.column.addTaskToBottom).eq(1).click({force:true})
+        cy.get(board.task.nameInput).type(data.task.name2 + "{enter}")
+    })
+
     it('Cancel archive board', () => {
         cy.get(board.myOrganizationFooter, {timeout:30000}).click()
         cy.get(board.modalOk).click()
