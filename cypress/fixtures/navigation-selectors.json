@@ -6,5 +6,6 @@
      "moreOptions" : ".el-dropdown > .el-tooltip.vs-c-btn.vs-c-btn--link",
      "showFilters" : ".vs-c-dropdown-wrapper.vs-c-filter > .el-badge.el-tooltip > .vs-c-btn.vs-c-btn--link",
      "notifications" : ".vs-c-dropdown-wrapper.vs-c-notification > .el-badge.el-tooltip > .vs-c-btn.vs-c-btn--link",
-     "help" : ".vs-l-project__options > .el-tooltip.vs-c-btn.vs-c-btn--link" 
+     "help" : ".vs-l-project__options > .el-tooltip.vs-c-btn.vs-c-btn--link",
+     "scrumLogo" : "div[class='vs-c-site-logo vs-u-cursor--pointer']"
 }

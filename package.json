@@ -1,0 +1,22 @@
+{
+  "name": "vivify-scrum-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rade-radovic/vivify-scrum-automation.git"
+  },
+  "author": "rade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rade-radovic/vivify-scrum-automation/issues"
+  },
+  "homepage": "https://github.com/rade-radovic/vivify-scrum-automation#readme",
+  "dependencies": {
+    "cypress": "^8.5.0"
+  }
+}

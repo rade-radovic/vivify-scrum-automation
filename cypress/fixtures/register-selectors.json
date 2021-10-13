@@ -1,9 +1,10 @@
 {
     "backToPricing" : "span[class='vs-u-text--uppercase vs-c-auth-modal__body-text vs-u-font-lg vs-u-gap--left-sm']",
     "emailInput" : "[data-vv-as='email']",
-    "passwordInput" : "[data-vv-as='password']",
+    "passwordInput" : "input[type='password']",
     "numberOfUsers" : "[data-vv-as='number of users']",
     "termsCheckbox" : "span[class='vs-c-checkbox-check']",
     "signUpButton" : "button[type='submit']",
-    "loginLink" : "strong[class='vs-c-auth-modal__bottom-text-main vs-u-text--uppercase']"
+    "loginLink" : "strong[class='vs-c-auth-modal__bottom-text-main vs-u-text--uppercase']",
+    "growtSignUp" : ".vsp-c-pricing-plan-list.vsp-c-pricing-plan-list--annual > li:nth-of-type(3) > a[title='Growth']"
 } 
