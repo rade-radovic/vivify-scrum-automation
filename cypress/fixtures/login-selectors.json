@@ -5,6 +5,8 @@
     "loginButton" : "button[type='submit']",
     "backToHomeLink" : "a[href='https://cypress-api.vivifyscrum-stage.com']",
     "signUpLink" : "a[href='https://cypress-api.vivifyscrum-stage.com/pricing']",
+    "errorMessage" : "span[class='el-form-item__error el-form-item-error--top']",
+    "backendErrorMessage" : "span[class='el-form-item__error']",
 
     "userButton" : "a img",
     "profileButon" : "a[href='/account/settings']",

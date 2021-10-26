@@ -7,5 +7,25 @@
     "nextOrCreateButton" : "button[name='next_btn']",
     "radioScrumType" : "span[name='type_scrum']",
     "radioKanbanType" : "span[name='type_kanban']",
-    "uploadLogo" : "div[class='el-upload-dragger']"
+    "uploadLogo" : "div[class='el-upload-dragger']",
+    "trialModalClose" : ".vs-c-modal__body > .el-button > .el-icon-close",
+    "myOrganizationFooter" : ".vs-c-my-organization__footer",
+    "modalOk" : "button[class='vs-c-btn vs-c-btn--primary vs-c-btn--lg vs-u-font-sm vs-c-modal--features-confirm-button']",
+    "boardTitle" : "h1[title='My first board'] > span",
+    "boardHeader" : "div[class='vs-c-boards-item__header']",
+    "addColumn" : ".not-sortable.vs-add-column-btn-gap.vs-c-col.vs-is-empty > .vs-add-new-task.vs-c-btn.vs-c-btn--round.vs-c-btn--sm.vs-c-btn--themify-primary",
+    "archiveBoard" : ".vs-c-organization__body .vs-c-organization__section:nth-of-type(1) .vs-c-boards-item__actions div",
+    "confirmArchiveNo" : ".el-button--warning",
+    "confirmArchiveYes" : ".el-button--success",
+    "boardsSection" : "div[class='vs-c-organization__section']",
+    "column" : {
+        "name" : "h2[class='vs-c-col__title']",
+        "nameInput" : "input[name='column-name']",
+        "addTaskToTop" : "button[class='vs-add-new-task vs-c-btn vs-c-btn--themify-secondary vs-c-btn--round vs-c-btn--sm']",
+        "addTaskToBottom" : "button[class='vs-add-new-task vs-c-btn vs-c-btn--themify-secondary vs-c-btn--round vs-c-btn--sm vs-c-task-card__not-selectable']"
+    },
+    "task" : {
+        "nameInput" : "textarea[name='item_name']",
+        "name" : "div[class='vue-simple-markdown markdown-body vs-c-reach-textarea-preview']"
+    }
 }

@@ -9,6 +9,11 @@
         "password" : "test1234"
     },
 
+    "userOrganizationCrud" : {
+        "email" : "organization@test.com",
+        "password" : "test1234"
+    },
+
     "negativeData" : {
         "wrongPassword" : "wrongpass12321783!jsd",
         "wrongEmail" : "wrong@email.com",
@@ -26,7 +31,8 @@
 
     "organization" : {
         "name" : "First organization",
-        "changedName" : "Changed Name"
+        "changedName" : "Changed Name",
+        "canceledChangeName" : "Canceled Changed Name"
     },
 
     "board" : {
