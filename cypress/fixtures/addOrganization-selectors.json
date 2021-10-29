@@ -11,6 +11,8 @@
     "organizationNameChangeCheck" : "button[name='change-organization-name'] > .el-icon-check",
     "cancelNameChangeButton" : "button:nth-of-type(2) > .el-icon-close",
     "confirmArchiveYes" : "button[name='save-btn']",
-    "confirmArchiveNo" : "button[name='cancel-btn']"
-
+    "confirmArchiveNo" : "button[name='cancel-btn']",
+    "modalOk" : ".vs-c-modal--features-button > .vs-c-btn",
+    "organizationTitle" : "h2[class='vs-c-my-organization__title']",
+    "myOrganmizationsDiv" : "div[class='vs-c-my-organizations-item-wrapper']"
 } 

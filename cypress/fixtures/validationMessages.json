@@ -1,0 +1,7 @@
+{
+    "invalidEmail" : "The email field must be a valid email",
+    "passwordRequired" : "The password field is required",
+    "WrongEmailPassword" : "Oops! Your email/password combination is incorrect",
+    "termsRequired" : "The agree to terms and privacy policy field is required",
+    "invalidNumberOfUsers" : "The number of users must be between 51 and 100"
+}
