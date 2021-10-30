@@ -4,14 +4,15 @@ import login from '../fixtures/login-selectors.json'
 import data from "../fixtures/data.json"
 import addOrganizaton from "../fixtures/addOrganization-selectors.json"
 import navigation from "../fixtures/navigation-selectors.json"
-
+import loginModule from '../models/loginModule'
 describe('Add new organization', () => {
 
     beforeEach('visit vivify scrum adn login', () => {
         cy.visit("/", { timeout: 30000});
-        cy.get(login.emailInput).clear().type(data.userOrganizationCrud.email)
-        cy.get(login.passwordInput).clear().type(data.userOrganizationCrud.password)
-        cy.get(login.loginButton).click()
+        loginModule.login({ email : data.userOrganizationCrud.email, password : data.userOrganizationCrud.password})
+    //     cy.get(login.emailInput).clear().type(data.userOrganizationCrud.email)
+    //     cy.get(login.passwordInput).clear().type(data.userOrganizationCrud.password)
+    //     cy.get(login.loginButton).click()
     })
 
     it('Empty organization name', () => {
