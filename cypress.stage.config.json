@@ -1,0 +1,4 @@
+{
+    "extends": "./cypress.json",
+    "baseUrl": "https://cypress.vivifyscrum-stage.com"
+}
