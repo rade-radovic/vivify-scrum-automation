@@ -1,7 +1,13 @@
 {
-    "baseUrl" : "https://cypress.vivifyscrum-stage.com",
-    "env": {
-        "username": "raex_serbia@yahoo.com",
-        "password": "test1234"
-      }
+  "baseUrl" : "https://cypress.vivifyscrum-stage.com",
+  "env": {
+    "username": "raex_serbia@yahoo.com",
+     "password": "test1234"
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
 }
