@@ -46,5 +46,28 @@
     "task" : {
         "name" : "My First Task",
         "name2" : "My Second Task"
+    },
+
+    "accounts" : {
+        "rade" : {
+            "email" : "raex_serbia@yahoo.com",
+            "password" : "test1234"
+        },
+        "board" : {
+            "email" : "board@crud.com",
+            "password" : "test1234"
+        },
+        "organizationCrud" : {
+            "email" : "organization@test.com",
+            "password" : "test1234"
+        },
+        "sara" : {
+            "email" : "sarastanacev97+1@gmail.com",
+            "password" : "Test1234"
+        },
+        "danijela" : {
+            "email" : "daninani@gmail.com",
+            "password" : "Test1234!"
+        }
     }
 }
