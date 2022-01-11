@@ -34,14 +34,13 @@ describe('api testing', () => {
     })
 
     let allOrganizations;
-    it.skip('get all organizations', () => {
+    it('get all organizations', () => {
         organizationApi.get({token : userToken}).then((allOrgs) => {
             allOrganizations = allOrgs
-            console.log(allOrgs)
         })
     })
 
-    it.skip('delete all organizations', () => {
+    it('delete all organizations', () => {
         allOrganizations.forEach(org => {
             organizationApi.delete({token : userToken, orgId : org.id})
         })
